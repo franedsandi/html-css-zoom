@@ -15,11 +15,20 @@
 .d-flex{
   display: flex;
 }
+.jc-end{
+  justify-content: flex-end;
+}
 .f-wrap{
   flex-wrap: wrap;
 }
 .jc-center{
   justify-content: center;
+}
+.jc-between{
+  justify-content: space-between;
+}
+.ai-center{
+  align-items: center;
 }
 button {
   color: white;
@@ -96,4 +105,63 @@ button:active {
   width: 100%;
   height: 60px;
   background-color: #222222;
+}
+#bot .self{
+  width: 180px;
+  height: 100%;
+}
+#bot .boton{
+  width: 85px;
+  height: 100%;
+  color: white;
+}
+#bot .boton:hover{
+  cursor: pointer;
+  opacity: .7;
+}
+#bot .boton:active {
+  opacity: .3;
+}
+#bot .boton span{
+display: block;
+}
+.emoji{
+  font-size: 25px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.freccia{
+  bottom: 30%;
+  right: 10%;
+}
+.texto{
+  bottom:0;
+  font-size: 9px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#bot .end{
+  width: 180px;
+  height: 100%;
+}
+.end .finish{
+  width: 130px;
+  height: 100%;
+  background-color: #4A4A4A;
+  color: red;
+}
+.end .finish:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+.end .finish:active{
+  opacity: .3;
+}
+.menu{
+  border: 1px solid white;
+}
+#bot .menu .boton{
+  height: 100%;
+  color: white;
 }
