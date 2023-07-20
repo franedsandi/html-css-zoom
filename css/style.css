@@ -1,16 +1,27 @@
+/* general */
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.p-relative{
+.p-relative {
   position:relative;
 }
-.p-absolute{
+.p-absolute {
   position: absolute;
 }
-button{
+.d-flex{
+  display: flex;
+}
+.f-wrap{
+  flex-wrap: wrap;
+}
+.jc-center{
+  justify-content: center;
+}
+button {
   color: white;
   text-decoration: none;
   background-color: grey;
@@ -20,16 +31,15 @@ button{
   margin-left: 3px;
   border: 0px;
 }
-button:hover{
+button:hover {
   cursor: pointer;
 }
-button:active{
+button:active {
   opacity: .5;
 }
-.container {
-  width: 100%;
-  height: 100%;
-}
+
+/* top */
+
 .tags{
   right: 10px;
   top: 10px;
@@ -40,20 +50,50 @@ button:active{
   height: 80px;
   background-color: black;
 }
-
-.container {
+#top .container {
   width: 100%;
   height: 100%;
   padding: 10px;
 }
+
+/* mid */
+
 #mid{
   width: 100%;
-  height: calc(100vh - 130px);
-  background-color: aqua;
+  height: calc(100vh - 140px);
+  background-color:black;
   overflow: auto;
 }
+#mid .container{
+  width: 90vw;
+  height: 100%;
+  margin: 0px auto;
+}
+.card{
+ width: 240px;
+ height:140px;
+ background-color: aquamarine;
+ margin: 0px 3px 15px;
+}
+.card:hover{
+  opacity: .5;
+}
+.card img{
+  width: 100%;
+  height: 100%;
+}
+.card .name{
+  bottom: 5px;
+  left: 0px;
+  padding: 5px;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 15px;
+}
+/* bot */
+
 #bot{
   width: 100%;
-  height: 50px;
-  background-color: blueviolet;
+  height: 60px;
+  background-color: #222222;
 }
