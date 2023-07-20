@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.p-relative{
+  position:relative;
+}
+.p-absolute{
+  position: absolute;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.tags{
+  right: 10px;
+  top: 10px;
+}
+.tag{
+  background-color: grey;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  margin-left: 3px;
+}
+#top{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+#mid{
+  width: 100%;
+  height: calc(100vh - 130px);
+  background-color: aqua;
+  overflow: auto;
+}
+#bot{
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
+}
