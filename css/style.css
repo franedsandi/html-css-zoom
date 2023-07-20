@@ -158,10 +158,11 @@ display: block;
 .end .finish:active{
   opacity: .3;
 }
-.menu{
-  border: 1px solid white;
+
+.green{
+  color: green;
 }
-#bot .menu .boton{
-  height: 100%;
-  color: white;
+.boton .special{
+  width: 90%;
+  text-align: center;
 }
