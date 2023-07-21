@@ -30,6 +30,9 @@
 .ai-center{
   align-items: center;
 }
+.ac-start{
+  align-content: flex-start;
+}
 button {
   color: white;
   text-decoration: none;
@@ -83,13 +86,16 @@ button:active {
  height:140px;
  background-color: aquamarine;
  margin: 0px 3px 15px;
+ overflow: hidden;
+ border-radius: 5px;
+ object-fit: cover;
+
 }
 .card:hover{
   opacity: .5;
 }
 .card img{
   width: 100%;
-  height: 100%;
 }
 .card .name{
   bottom: 5px;
